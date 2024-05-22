@@ -24,7 +24,7 @@ bearer_token = os.getenv("BEARER_TOKEN")
 # solicitaçoẽs à API.
 api = tw.Client(bearer_token)
 # Define a palavra chave de pesquisa.
-query = 'theprimeagen'
+query = 'palavra_chave_aqui'
 # Busca os tweets mais recentes contendo a palavra-chave
 # e defini o numero mais de resultados a 10.
 search_results = api.search_recent_tweets(query, max_results=10)
